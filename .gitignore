@@ -1,0 +1,25 @@
+# Node.js関連
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode関連
+.vscode/
+*.code-workspace
+
+# 環境変数ファイル
+.env
+.env.local
+.env.*.local
+
+# OS特有のファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ログファイル
+*.log
+
+# テスト結果
+coverage/
