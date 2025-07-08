@@ -2,7 +2,8 @@
 
 ### API（GAS）コード
 
-```const doPost = (e) =>{
+```
+const doPost = (e) =>{
 
   //値の受取
   const title = e.parameter.title;
