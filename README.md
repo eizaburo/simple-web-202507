@@ -21,3 +21,12 @@ const doPost = (e) =>{
   return ContentService.createTextOutput("受け付けました");
 }
 ```
+
+curlで試すなら、以下の感じ。
+
+```
+curl -X POST \
+  -H "Content-type: application/x-www-form-urlencoded" \
+  -d "title=title&email=test@test.local&message=fogogufo" \
+  "https://gas/api/path"
+```
